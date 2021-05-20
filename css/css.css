@@ -1,0 +1,343 @@
+*
+{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.master
+{
+	display: grid;
+	grid-template-columns: 100%;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	position: absolute;
+}
+
+.header img
+{
+	width: 100%;
+	height: 100%;
+}
+
+.menu
+{
+	margin-left: 40%;
+	margin-top: -43%;
+	cursor: default;
+	position: absolute;
+}
+
+.menu ul li
+{
+	margin-top: 20px;
+	float: left;
+	text-align: center;
+	font-size: 20px;
+	margin-left: 10px;
+	cursor: default;
+	color: black;
+	display: inline;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.menu ul li:hover
+{
+	text-decoration: underline;
+	transition: all 0.5s ease;
+}
+
+.headerText
+{
+	position: absolute;
+	margin-top: -250px;
+	margin-left: 5%;
+	color: #FFFFFF;
+	font-size: 40px;
+	float: left;
+}
+
+.search
+{ 
+	margin-top: 16px;
+	float: left;
+	margin-left: 80px;
+}
+
+.search input
+{
+	padding-left: 45px;
+	height: 30px;
+	width: 220px;
+	border-radius: 25px;
+	border: 0;
+}
+
+.search input:focus
+{
+	outline: none;
+}
+
+.headerText button
+{
+	margin-left: 1%;
+	margin-top: 40px;
+	height: 30px;
+	width: 100px;
+}
+
+.headerText a
+{
+	color: white;
+	font-size: 18px;
+	text-align: center;
+	border: solid 1px white;
+	text-decoration: none;
+}
+
+.main
+{
+	width: 100%;
+	height: 1900px;
+	box-sizing: border-box;
+	background-color: #333333;
+	padding: 0;
+	margin: 0;
+
+}
+
+.mainFirst
+{
+	width: 65%;
+	height: 300px;
+	float: left;
+	margin-left: 5%;
+	background-color: white;
+}
+
+.menuFirst
+{
+	width: 100%;
+	height: 40px;
+	float: left;
+	background-color: #333333;
+	border: solid 1px #999999;
+}
+
+.mainFirst p
+{
+	margin-top: 5%;
+	margin-left: 10%;
+	color: #FF0066;
+}
+
+.mainFirst a
+{
+	height: 25px;
+	width: 120px;
+	font-size: 18px;
+	float: left;
+	margin-top: 2%;
+	margin-left: 10%;
+	color: #FF0066;
+	text-align: center;
+	border: solid 1px #FF0066;
+	text-decoration: none;
+
+}
+
+
+.label
+{
+	height: 25px;
+	width: 220px;
+	margin-top: 10%;
+	margin-left: 5%;
+	background-color: #FF0066;
+}
+
+.mainFirst img
+{
+	float: right;
+	margin-right: 10%;
+	margin-top: 3.7%;
+}
+
+.label p
+{
+	color: white;
+	font-size: 20px;
+	margin: 0;
+	text-align: center;
+}
+
+.menuFirst ul li
+{
+	padding-top: 10px;
+	margin-left: 10px;
+	float: left;
+	margin-bottom: 10px;
+	font-size: 15px;
+	cursor: default;
+	color: #CCCCCC;
+	display: inline;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.menuFirst ul li:hover
+{
+	background-color: #FFFFFF;
+	color: #000000;
+	transition: all 0.5s ease;
+	height: 40px;
+}
+
+.mainSecond
+{
+	width: 24%;
+	height: 350px;
+	margin-left: 1%;
+	margin-right: 5%;
+	background-color: white;
+	float: left;
+	border: solid 1px #999999;
+}
+
+.menuSecond
+{
+	width: 100%;
+	height: 40px;
+	float: left;
+	background-color: #333333;
+}
+
+.TRENDING
+{
+	float: left;
+	text-align: center;
+	height: 40px;
+	width: 40%;
+	padding-top: 12.5px;
+	font-size: 15px;
+	cursor: default;
+	color: white;
+}
+
+.EDITOR
+{
+	float: left;
+	text-align: center;
+	height: 40px;
+	width: 60%;
+	padding-top: 12.5px;
+	font-size: 15px;
+	cursor: default;
+	color: white;
+}
+
+.TRENDING:hover
+{
+	background-color: #FFFFFF;
+	color: #000000;
+	transition: all 0.5s ease;
+	height: 40px;
+}
+
+.EDITOR:hover
+{
+	background-color: #FFFFFF;
+	color: #000000;
+	transition: all 0.5s ease;
+	height: 40px;
+}
+
+.travel
+{
+	height: 250px;
+	width: 400px;
+	background-color: white;
+	float: left;
+	border: solid 1px black;
+	margin-top: 66px;
+}
+
+.science
+{
+	height: 450px;
+	width: 400px;
+	background-color: white;
+	float: right;
+	border: solid 1px black;
+	margin-top: 10px;
+}
+
+.photography
+{
+	height: 450px;
+	width: 400px;
+	background-color: white;
+	float: left;
+	border: solid 1px black;
+	margin-top: 10px;
+}
+
+.travelS
+{
+	height: 250px;
+	width: 400px;
+	background-color: white;
+	float: right;
+	border: solid 1px black;
+	margin-top: 10px;
+}
+
+.loadmore
+{
+	height: 60px;
+	width: 100%;
+	background-color: #999999;
+	float: left;
+	margin-top: 10px;
+}
+
+.weather
+{
+	width: 24%;
+	height: 500px;
+	margin-right: 5%;
+	background-color: white;
+	float: right;
+	border: solid 1px #999999;
+	margin-top: 10px;
+
+}
+
+.gallery
+{
+	width: 24%;
+	height: 200px;
+	margin-right: 5%;
+	background-color: white;
+	float: right;
+	border: solid 1px #999999;
+	margin-top: 10px;
+}
+
+@media all and (max-width: 1200px)
+{
+	div 
+	{
+		width: 1280px;
+	}
+}
+
+@media all and (max-width: 480px)
+{
+	div 
+	{
+		width: 320px;
+	}
+}
